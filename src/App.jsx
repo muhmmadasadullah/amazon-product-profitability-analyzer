@@ -83,8 +83,7 @@ export default function App() {
           <h2>Monthly Data</h2>
           <InputField label="Ad Spend" name="monthlyAdSpend" value={inputs.monthlyAdSpend} onChange={handleChange} />
           <InputField label="Total Revenue" name="monthlyTotalRevenue" value={inputs.monthlyTotalRevenue} onChange={handleChange} />
-          <InputField label="Ad Revenue" name="monthlyAdRevenue" value={inputs.monthlyAdRevenue} onChange={handleChange} tooltip="PPC-attributed revenue" />
-        </aside>
+Tokia        </aside>
         <main className="results-panel">
           <section><h2>Unit Economics</h2><div className="metrics-grid">
             <MetricCard label="Total Cost" value={'$'+r.totalCost.toFixed(2)} />
@@ -106,7 +105,4 @@ export default function App() {
           </div></section>
         </main>
       </div>
-      <footer><p>Amazon PPC Decision Tool | Dual ACoS + TACoS Analysis | <a href="https://tokia.ai" target="_blank" rel="noopener">Tokia AI</a></p></footer>
-    </div>
-  )
-}
+      <footer><p>Amazon PPC Decision Tool | Dual ACoS + TACoS Analysis | 
